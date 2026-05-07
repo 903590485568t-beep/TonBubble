@@ -18,7 +18,7 @@ export function Shell(props: { title?: string; children: ReactNode }) {
     <div className="relative isolate min-h-dvh bg-ton-ice text-ton-chalk">
       <CloudBackdrop />
 
-      <header className="sticky top-0 z-20 rounded-none border-b-2 border-ton-chalk bg-ton-gray shadow-[0_10px_26px_rgba(0,0,255,0.12)]">
+      <header className="sticky top-0 z-20 rounded-none border-b-2 border-ton-chalk bg-ton-gray/45 backdrop-blur-[14px] shadow-[0_10px_26px_rgba(0,0,255,0.12)]">
         <div className="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-3">
           <Link to="/" className="group inline-flex items-end gap-2">
             <span className="inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border-2 border-ton-chalk bg-ton-gray shadow-[0_0_18px_rgba(123,104,238,0.18)]">
@@ -30,9 +30,9 @@ export function Shell(props: { title?: string; children: ReactNode }) {
               />
             </span>
             <span className="leading-none">
-              <span className="block font-title text-[26px] tracking-wide drop-shadow-[0_0_14px_rgba(0,0,255,0.18)]">
-                <span className="text-ton-chalk">Ton</span>
-                <span className="text-ton-bg">Bubble</span>
+              <span className="block font-title text-[26px] tracking-wide">
+                <span className="tb-title-white">Ton</span>
+                <span className="tb-title-black">Bubble</span>
               </span>
               <span className="block font-kid text-[12px] text-ton-chalk/70">
                 я рисую карту холдеров и не стесняюсь

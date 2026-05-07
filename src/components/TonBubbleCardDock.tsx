@@ -9,14 +9,14 @@ export function TonBubbleCardDock() {
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30">
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-[380px] bg-ton-gray/80 backdrop-blur-[14px]"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-[380px] bg-ton-gray/45 backdrop-blur-[18px]"
         style={{
           maskImage: 'linear-gradient(to top, black 0%, black 75%, transparent 100%)',
           WebkitMaskImage: 'linear-gradient(to top, black 0%, black 75%, transparent 100%)',
         }}
       />
       <div className="pointer-events-auto relative mx-auto w-[min(1120px,calc(100vw-20px))] pb-4 pt-5">
-        <div className="tb-card-readable border-2 border-ton-chalk bg-ton-gray/70 text-ton-chalk shadow-[0_22px_44px_rgba(123,104,238,0.22)] backdrop-blur-[16px]">
+        <div className="tb-card-readable border-2 border-ton-chalk bg-ton-gray/45 text-ton-chalk shadow-[0_22px_44px_rgba(123,104,238,0.22)] backdrop-blur-[22px]">
           <div className="grid grid-cols-[160px_1fr] gap-6 p-6 sm:grid-cols-[200px_1fr]">
             <div className="relative h-[140px] w-[140px] border-2 border-ton-chalk bg-ton-gray sm:h-[160px] sm:w-[160px]">
             <img
@@ -35,8 +35,8 @@ export function TonBubbleCardDock() {
             <div className="flex flex-wrap items-end justify-between gap-3">
               <div>
                 <div className="font-title text-[28px] leading-none sm:text-[34px]">
-                  <span className="text-ton-chalk">Ton</span>
-                  <span className="text-ton-bg">Bubble</span>
+                  <span className="tb-title-white">Ton</span>
+                  <span className="tb-title-black">Bubble</span>
                 </div>
                 <div className="mt-2 font-mono text-[14px] text-ton-chalk">$TONBUBBLE</div>
                 <div className="mt-3 grid gap-1">
@@ -51,10 +51,10 @@ export function TonBubbleCardDock() {
                   href={TELEGRAM_URL}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-ton-chalk bg-ton-bg px-6 font-kid text-[13px] uppercase tracking-wider text-ton-chalk shadow-[0_14px_26px_rgba(0,0,255,0.20)] transition-transform hover:translate-y-[-1px] hover:border-ton-lime active:translate-y-[1px]"
+                  className="inline-flex h-12 items-center justify-center gap-2 rounded-full border-2 border-ton-chalk bg-ton-bg px-6 font-kid text-[13px] uppercase tracking-wider text-white shadow-[0_14px_26px_rgba(0,0,255,0.20)] transition-transform hover:translate-y-[-1px] hover:border-ton-lime active:translate-y-[1px]"
                   aria-label="Telegram"
                 >
-                  <Send className="h-4 w-4 text-ton-chalk" />
+                  <Send className="h-4 w-4 text-white" />
                   TELEGRAM
                 </a>
                 <StickerButton
@@ -68,10 +68,10 @@ export function TonBubbleCardDock() {
             </div>
 
             <div className="mt-4 grid gap-2 sm:grid-cols-2">
-              <div className="tb-card-readable border-2 border-ton-chalk/30 bg-ton-bg px-3 py-2 font-mono text-[12px] text-ton-chalk/85">
+              <div className="border-2 border-ton-chalk/30 bg-ton-bg px-3 py-2 font-mono text-[12px] text-white">
                 тикер: $TONBUBBLE
               </div>
-              <div className="tb-card-readable border-2 border-ton-chalk/30 bg-ton-bg px-3 py-2 font-mono text-[12px] text-ton-chalk/85">
+              <div className="border-2 border-ton-chalk/30 bg-ton-bg px-3 py-2 font-mono text-[12px] text-white">
                 chain: TON
               </div>
             </div>

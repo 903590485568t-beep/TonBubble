@@ -104,5 +104,24 @@ body {
 
 .tb-card-readable,
 .tb-card-readable * {
+  color: #101010;
   text-shadow: none;
+}
+
+.tb-card-readable button,
+.tb-card-readable button * {
+  color: #ffffff;
+}
+
+.tb-title-white {
+  color: #ffffff;
+  text-shadow:
+    -1px 0 #000000,
+    1px 0 #000000,
+    0 -1px #000000,
+    0 1px #000000;
+}
+
+.tb-title-black {
+  color: #000000;
 }

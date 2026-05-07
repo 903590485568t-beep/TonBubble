@@ -50,9 +50,9 @@ export default function Home() {
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div>
               <div className="font-title text-[42px] leading-[0.95]">
-                <span className="text-ton-chalk">TON</span>
-                <span className="text-ton-bg"> BUB</span>
-                <span className="text-ton-chalk">LLE</span>
+                <span className="tb-title-white">TON</span>
+                <span className="tb-title-black"> BUB</span>
+                <span className="tb-title-white">LLE</span>
               </div>
               <div className="mt-2 max-w-[520px] font-kid text-[14px] text-ton-chalk/80">
                 {slogan}
