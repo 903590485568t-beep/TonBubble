@@ -9,7 +9,7 @@ export default {
     },
     extend: {
       colors: {
-        "ton-bg": "#FFFFFF",
+        "ton-bg": "#000000",
         "ton-red": "#7B68EE",
         "ton-chalk": "#0000FF",
         "ton-lime": "#66CDAA",
