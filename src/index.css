@@ -102,28 +102,7 @@ body {
   filter: drop-shadow(0 14px 18px rgba(123, 104, 238, 0.18));
 }
 
-/* Force palette parity across environments (dev/prod). */
-.bg-ton-bg {
-  background-color: #000000 !important;
-}
-
-.text-ton-chalk {
-  color: #0000ff !important;
-}
-
-.border-ton-chalk {
-  border-color: #0000ff !important;
-}
-
 .tb-card-readable,
 .tb-card-readable * {
-  color: #16324a;
-  text-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.35);
-}
-
-.tb-card-readable button,
-.tb-card-readable button * {
-  color: #ffffff;
   text-shadow: none;
 }
